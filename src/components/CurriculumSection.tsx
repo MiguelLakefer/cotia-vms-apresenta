@@ -51,8 +51,8 @@ const CurriculumSection = () => {
           />
           <ProgramCard 
             icon={BookOpen} 
-            title="Ensino Fundamental II" 
-            description="Aprofundamento do conhecimento e preparação para os desafios do ensino médio e vestibulares."
+            title="Ensino Médio" 
+            description="Aprofundamento do conhecimento e preparação para os desafios da vida e vestibulares."
             iconClassName="bg-green-100 text-green-600"
           />
           <ProgramCard 
