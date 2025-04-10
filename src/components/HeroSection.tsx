@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative bg-school-primary text-white overflow-hidden">
+  return <section id="home" className="relative bg-school-primary text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518005020951-eccb494ad742')] bg-cover bg-center opacity-15"></div>
       <div className="container relative min-h-[calc(100vh-160px)] flex flex-col justify-center py-20">
         <div className="max-w-3xl animate-fade-in">
@@ -22,15 +19,11 @@ const HeroSection = () => {
             <Button size="lg" className="bg-school-accent hover:bg-yellow-500 text-school-primary font-semibold">
               Conheça Nossa Escola
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              Agende uma Visita
-            </Button>
+            
           </div>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
