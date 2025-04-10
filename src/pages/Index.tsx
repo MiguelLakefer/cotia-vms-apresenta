@@ -5,7 +5,6 @@ import AboutSection from "@/components/AboutSection";
 import CurriculumSection from "@/components/CurriculumSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FacultySection from "@/components/FacultySection";
-import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowUp } from "lucide-react";
@@ -42,7 +41,6 @@ const Index = () => {
         <CurriculumSection />
         <FacultySection />
         <TestimonialsSection />
-        <ContactSection />
       </main>
       <Footer />
       
