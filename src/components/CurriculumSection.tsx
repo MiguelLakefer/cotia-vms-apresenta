@@ -45,8 +45,8 @@ const CurriculumSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <ProgramCard 
             icon={Book} 
-            title="Ensino Fundamental I" 
-            description="Bases sólidas para alfabetização e desenvolvimento de habilidades essenciais para o aprendizado contínuo."
+            title="Educação Infantil" 
+            description="Desenvolvimento das habilidades socioemotivas e primeiras experiências educacionais em ambiente acolhedor."
             iconClassName="bg-blue-100 text-blue-600"
           />
           <ProgramCard 
