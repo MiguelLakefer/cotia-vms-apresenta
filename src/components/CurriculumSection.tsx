@@ -1,5 +1,5 @@
 
-import { Book, BookOpen, Palette, Calculator, Globe, FlaskConical } from "lucide-react";
+import { Book, BookOpen, Palette, Calculator, Globe, FlaskConical, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -44,9 +44,9 @@ const CurriculumSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <ProgramCard 
-            icon={Book} 
-            title="Educação Infantil" 
-            description="Desenvolvimento das habilidades socioemotivas e primeiras experiências educacionais em ambiente acolhedor."
+            icon={Clock} 
+            title="Escola em Período Integral" 
+            description="Educação completa com acompanhamento pedagógico durante todo o dia, oferecendo atividades diversificadas e alimentação balanceada."
             iconClassName="bg-blue-100 text-blue-600"
           />
           <ProgramCard 
