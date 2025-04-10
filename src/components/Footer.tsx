@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-serif text-xl font-bold mb-4">Escola Municipal<br />Vinícius de Moraes</h3>
+            <h3 className="font-serif text-xl font-bold mb-4">Escola<br />Vinícius de Moraes</h3>
             <p className="text-gray-300 mb-4">
               Educação de qualidade para transformar vidas e construir um futuro melhor.
             </p>
@@ -65,7 +65,7 @@ const Footer = () => {
       
       <div className="border-t border-white/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; 2025 Escola Municipal Vinícius de Moraes. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Escola Vinícius de Moraes. Todos os direitos reservados.</p>
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-sm text-gray-300 hover:text-school-accent mr-4">Política de Privacidade</a>
             <a href="#" className="text-sm text-gray-300 hover:text-school-accent">Termos de Uso</a>

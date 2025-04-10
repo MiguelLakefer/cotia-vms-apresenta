@@ -65,7 +65,7 @@ const Header = () => {
         <div className="container flex justify-between items-center py-4">
           <a href="#" className="flex items-center">
             <span className="text-2xl font-serif font-bold text-school-primary">
-              Escola Municipal<br />
+              Escola<br />
               <span className="text-school-secondary">Vinícius de Moraes</span>
             </span>
           </a>
