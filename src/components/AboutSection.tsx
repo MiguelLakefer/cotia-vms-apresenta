@@ -49,8 +49,8 @@ const AboutSection = () => {
           </div>
           <div className="relative h-80 md:h-auto rounded-lg overflow-hidden shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" 
-              alt="Alunos na Escola Vinícius de Moraes" 
+              src="/lovable-uploads/87860bda-f50d-476e-a045-08bacde53a6c.png" 
+              alt="Área externa da Escola Vinícius de Moraes" 
               className="w-full h-full object-cover"
             />
           </div>
