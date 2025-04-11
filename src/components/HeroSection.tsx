@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 const HeroSection = () => {
   return <section id="home" className="relative bg-school-primary text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518005020951-eccb494ad742')] bg-cover bg-center opacity-15"></div>
+      <div className="absolute inset-0 bg-[url('/lovable-uploads/9c0e0ed3-4317-4a76-b048-f72a96a63e9f.png')] bg-cover bg-center opacity-30"></div>
       <div className="container relative min-h-[calc(100vh-160px)] flex flex-col justify-center py-20">
         <div className="max-w-3xl animate-fade-in">
           <span className="bg-school-accent text-school-primary px-4 py-1 rounded-full text-sm font-semibold mb-6 inline-block">
