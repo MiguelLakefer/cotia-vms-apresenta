@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+
 const HeroSection = () => {
   return <section id="home" className="relative bg-school-primary text-white overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518005020951-eccb494ad742')] bg-cover bg-center opacity-15"></div>
@@ -17,7 +19,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-school-accent hover:bg-yellow-500 text-school-primary font-semibold">
-              Conheça Nossa Escola
+              Venha conhecer!
             </Button>
             
           </div>
@@ -26,4 +28,5 @@ const HeroSection = () => {
       <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent"></div>
     </section>;
 };
+
 export default HeroSection;
