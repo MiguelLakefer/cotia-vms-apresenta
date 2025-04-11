@@ -1,4 +1,3 @@
-
 import { GraduationCap, Users, Clock, Award } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -25,7 +24,7 @@ const AboutSection = () => {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-school-secondary font-semibold">NOSSA HISTÓRIA</span>
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mt-2 mb-4">Educando com Excelência desde 1985</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mt-2 mb-4">Educando com Excelência desde 1988</h2>
           <p className="text-gray-600 text-lg">
             A Escola Municipal Vinícius de Moraes tem se destacado como referência em educação na cidade de Cotia, 
             com um compromisso inabalável com a formação integral dos alunos.
