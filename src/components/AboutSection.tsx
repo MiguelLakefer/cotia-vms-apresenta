@@ -1,4 +1,5 @@
-import { GraduationCap, Users, Clock, Award } from "lucide-react";
+
+import { GraduationCap, Users, Clock, Award, ExternalLink } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const FeatureCard = ({ icon: Icon, title, description, className }: { 
@@ -48,10 +49,31 @@ const AboutSection = () => {
           </div>
           <div className="relative h-80 md:h-auto rounded-lg overflow-hidden shadow-xl">
             <img 
-              src="/lovable-uploads/87860bda-f50d-476e-a045-08bacde53a6c.png" 
+              src="/lovable-uploads/5b75c853-cae5-4ce1-8ab8-4b6aa7ed65a6.png" 
               alt="Área externa da Escola Vinícius de Moraes" 
               className="w-full h-full object-cover"
             />
+          </div>
+        </div>
+
+        {/* Sala do Futuro Section */}
+        <div className="mb-16 bg-white p-8 rounded-lg shadow-lg">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-school-primary mb-4">Sala do Futuro</h3>
+            <p className="text-gray-600">
+              Conheça a nossa moderna Sala do Futuro, um espaço inovador dedicado ao aprendizado tecnológico e digital.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <a 
+              href="https://saladofuturo.educacao.sp.gov.br/escolha-de-perfil"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-school-primary text-white px-6 py-3 rounded-lg hover:bg-school-secondary transition-colors"
+            >
+              <span>Acesse a Sala do Futuro</span>
+              <ExternalLink size={18} />
+            </a>
           </div>
         </div>
 
