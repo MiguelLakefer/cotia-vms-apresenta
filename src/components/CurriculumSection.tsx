@@ -44,22 +44,40 @@ const CurriculumSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <ProgramCard 
+            icon={Clock} 
+            title="Escola em Período Integral" 
+            description="Educação completa com acompanhamento pedagógico durante todo o dia, oferecendo atividades diversificadas e alimentação balanceada."
+            iconClassName="bg-blue-100 text-blue-600"
+          />
+          <ProgramCard 
+            icon={BookOpen} 
+            title="Ensino Médio" 
+            description="Aprofundamento do conhecimento e preparação para os desafios da vida e vestibulares."
+            iconClassName="bg-green-100 text-green-600"
+          />
+          <ProgramCard 
             icon={Users} 
-            title="Humanas" 
+            title="Ciências Humanas" 
             description="Desenvolvimento do pensamento crítico através de História, Geografia, Filosofia e Sociologia."
             iconClassName="bg-purple-100 text-purple-600"
           />
           <ProgramCard 
             icon={Calculator} 
-            title="Exatas" 
+            title="Ciências Exatas" 
             description="Fortalecimento do raciocínio lógico com Matemática, Física e Química de forma aplicada."
             iconClassName="bg-red-100 text-red-600"
           />
           <ProgramCard 
             icon={Microscope} 
-            title="Biológicas" 
+            title="Ciências Biológicas" 
             description="Compreensão da vida e dos processos naturais através da Biologia e Ciências da Natureza."
             iconClassName="bg-yellow-100 text-yellow-600"
+          />
+          <ProgramCard 
+            icon={Globe} 
+            title="Linguagens" 
+            description="Desenvolvimento de habilidades comunicativas em português, inglês e expressão artística."
+            iconClassName="bg-pink-100 text-pink-600"
           />
         </div>
 
