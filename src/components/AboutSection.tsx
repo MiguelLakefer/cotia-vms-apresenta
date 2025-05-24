@@ -77,6 +77,27 @@ const AboutSection = () => {
           </div>
         </div>
 
+        {/* Secretaria Escolar Digital Section */}
+        <div className="mb-16 bg-white p-8 rounded-lg shadow-lg">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-school-primary mb-4">Secretaria Escolar Digital</h3>
+            <p className="text-gray-600">
+              Acesse os serviços digitais da Secretaria de Educação do Estado de São Paulo para consultas e procedimentos escolares.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <a 
+              href="https://sed.educacao.sp.gov.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-school-primary text-white px-6 py-3 rounded-lg hover:bg-school-secondary transition-colors"
+            >
+              <span>Secretaria Escolar Digital</span>
+              <ExternalLink size={18} />
+            </a>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <FeatureCard 
             icon={GraduationCap}
