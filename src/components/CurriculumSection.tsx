@@ -1,5 +1,5 @@
 
-import { Book, BookOpen, Palette, Calculator, Globe, FlaskConical, Clock } from "lucide-react";
+import { Book, BookOpen, Palette, Calculator, Globe, FlaskConical, Clock, Users, Brain, Microscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -56,27 +56,27 @@ const CurriculumSection = () => {
             iconClassName="bg-green-100 text-green-600"
           />
           <ProgramCard 
-            icon={Calculator} 
-            title="Matemática" 
-            description="Metodologia que desenvolve o raciocínio lógico e resolução de problemas de forma prática."
+            icon={Users} 
+            title="Ciências Humanas" 
+            description="Desenvolvimento do pensamento crítico através de História, Geografia, Filosofia e Sociologia."
             iconClassName="bg-purple-100 text-purple-600"
+          />
+          <ProgramCard 
+            icon={Calculator} 
+            title="Ciências Exatas" 
+            description="Fortalecimento do raciocínio lógico com Matemática, Física e Química de forma aplicada."
+            iconClassName="bg-red-100 text-red-600"
+          />
+          <ProgramCard 
+            icon={Microscope} 
+            title="Ciências Biológicas" 
+            description="Compreensão da vida e dos processos naturais através da Biologia e Ciências da Natureza."
+            iconClassName="bg-yellow-100 text-yellow-600"
           />
           <ProgramCard 
             icon={Globe} 
             title="Linguagens" 
-            description="Desenvolvimento de habilidades comunicativas em português e introdução à língua inglesa."
-            iconClassName="bg-red-100 text-red-600"
-          />
-          <ProgramCard 
-            icon={FlaskConical} 
-            title="Ciências" 
-            description="Abordagem experimental que estimula a curiosidade e o espírito científico dos alunos."
-            iconClassName="bg-yellow-100 text-yellow-600"
-          />
-          <ProgramCard 
-            icon={Palette} 
-            title="Artes e Cultura" 
-            description="Atividades que estimulam a criatividade e valorizam a expressão artística e cultural."
+            description="Desenvolvimento de habilidades comunicativas em português, inglês e expressão artística."
             iconClassName="bg-pink-100 text-pink-600"
           />
         </div>
