@@ -1,3 +1,4 @@
+
 import { Book, BookOpen, Palette, Calculator, Globe, FlaskConical, Clock, Users, Brain, Microscope } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -44,19 +45,19 @@ const CurriculumSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <ProgramCard 
             icon={Users} 
-            title="Ciências Humanas" 
+            title="Humanas" 
             description="Desenvolvimento do pensamento crítico através de História, Geografia, Filosofia e Sociologia."
             iconClassName="bg-purple-100 text-purple-600"
           />
           <ProgramCard 
             icon={Calculator} 
-            title="Ciências Exatas" 
+            title="Exatas" 
             description="Fortalecimento do raciocínio lógico com Matemática, Física e Química de forma aplicada."
             iconClassName="bg-red-100 text-red-600"
           />
           <ProgramCard 
             icon={Microscope} 
-            title="Ciências Biológicas" 
+            title="Biológicas" 
             description="Compreensão da vida e dos processos naturais através da Biologia e Ciências da Natureza."
             iconClassName="bg-yellow-100 text-yellow-600"
           />
